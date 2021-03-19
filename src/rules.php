@@ -4,7 +4,7 @@ return [
     '@PhpCsFixer' => true,
     '@PSR12' => true,
     '@PHP74Migration' => true,
-    'psr4' => true,
+    'psr_autoloading' => true,
     'increment_style' => ['style' => 'post'],
     'blank_line_before_statement' => [
         'statements' => ['break', 'continue', 'declare', 'return', 'throw', 'try'],
