@@ -32,3 +32,15 @@ return $style->rules([
     'your-rule' => true
 ]);
 ```
+
+## Rules
+
+- https://mlocati.github.io/php-cs-fixer-configurator/#version:2.18
+
+## Configuration
+
+Area for links that help you configure PHP CS Fixer on the developers' machine
+
+#### PHPStorm
+- https://blog.jetbrains.com/phpstorm/2018/11/php-cs-fixer-support/
+- https://medium.com/hackernoon/how-to-configure-phpstorm-to-use-php-cs-fixer-1844991e521f
