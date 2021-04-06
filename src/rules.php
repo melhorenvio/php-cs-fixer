@@ -17,4 +17,5 @@ return [
         'sortAlgorithm' => 'length',
     ],
     'simplified_null_return' => true,
+    'no_superfluous_phpdoc_tags' => false,
 ];
