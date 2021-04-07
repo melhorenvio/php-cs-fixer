@@ -21,4 +21,5 @@ return [
     'concat_space' => [
         'spacing' => 'one',
     ],
+    'single_line_comment_style' => false,
 ];
