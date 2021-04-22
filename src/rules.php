@@ -13,8 +13,13 @@ return [
         'strategy' => 'no_multi_line'
     ],
     'not_operator_with_successor_space' => false,
-    'ordered_imports' => [
-        'sortAlgorithm' => 'length',
-    ],
     'simplified_null_return' => true,
+    'ordered_imports' => true,
+    'yoda_style' => false,
+    'global_namespace_import' => true,
+    'no_superfluous_phpdoc_tags' => false,
+    'concat_space' => [
+        'spacing' => 'one',
+    ],
+    'single_line_comment_style' => false,
 ];
