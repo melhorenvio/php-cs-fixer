@@ -22,4 +22,7 @@ return [
         'spacing' => 'one',
     ],
     'single_line_comment_style' => false,
+    'php_unit_method_casing' => [
+        'case' => 'snake_case',
+    ],
 ];
