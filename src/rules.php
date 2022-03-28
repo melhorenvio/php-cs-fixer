@@ -10,7 +10,7 @@ return [
         'statements' => ['break', 'continue', 'declare', 'return', 'throw', 'try'],
     ],
     'multiline_whitespace_before_semicolons' => [
-        'strategy' => 'no_multi_line'
+        'strategy' => 'no_multi_line',
     ],
     'not_operator_with_successor_space' => false,
     'simplified_null_return' => true,

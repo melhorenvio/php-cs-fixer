@@ -19,6 +19,7 @@ class Style
 
     /**
      * Style constructor.
+     *
      * @param Finder $finder
      * @param Config $config
      */
@@ -31,10 +32,12 @@ class Style
 
     /**
      * @param array $rules
+     *
      * @return Config
      */
-    public function rules(array $rules = []): Config {
-        $rules = array_merge(require __DIR__.'/rules.php', $rules);
+    public function rules(array $rules = []): Config
+    {
+        $rules = array_merge(require __DIR__ . '/rules.php', $rules);
 
         return $this->config->setRules($rules);
     }
