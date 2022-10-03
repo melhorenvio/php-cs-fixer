@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "friendsofphp/php-cs-fixer": "^2.0"
+        "friendsofphp/php-cs-fixer": "^2.0|^3.11"
     },
     "scripts": {
         "php-cs-fixer": "./vendor/bin/php-cs-fixer fix --verbose --config=.php_cs-fixer.php --path-mode=intersection --allow-risky=yes"
