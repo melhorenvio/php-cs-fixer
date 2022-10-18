@@ -5,7 +5,7 @@
         "melhorenvio",
         "php-cs-fixer"
     ],
-    "homepage": "https://bitbucket.org/melhor-envio/php-cs-fixer",
+    "homepage": "https://github.com/melhorenvio/php-cs-fixer",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "friendsofphp/php-cs-fixer": "^2.0"
+        "friendsofphp/php-cs-fixer": "^3.0"
     },
     "scripts": {
         "php-cs-fixer": "./vendor/bin/php-cs-fixer fix --verbose --config=.php_cs-fixer.php --path-mode=intersection --allow-risky=yes"
