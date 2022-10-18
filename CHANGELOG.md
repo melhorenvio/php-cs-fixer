@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/melhorenvio/php-cs-fixer/compare/1.2.0...2.0.0) (2022-10-18)
+
+
+* feat!: upgrade the php-cs-fixer package to the v3. ([45cbca3](https://github.com/melhorenvio/php-cs-fixer/commit/45cbca3732341a439d05652a99da43174b690b26))
+
+
+### BREAKING CHANGES
+
+* PHP versions below 7.4 aren't supported anymore due to the upgrade to the php-cs-fixer ^3.0
+
 # [1.2.0](https://github.com/melhorenvio/php-cs-fixer/compare/1.1.0...1.2.0) (2022-03-28)
 
 
